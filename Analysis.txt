@@ -1,11 +1,10 @@
-This program should be able to simulate a battle between the characters Gon & Knuckle from Hunter x Hunter. A turn based system where the user acts as GON vs the computer as Knuckle.
-Once Knucklle hits GON, Knuckle lends Aura to Gon that must be paid back with ten percent interest every 10 seconds. If Knuckle hits Gon again his aura debt increases by that amount.
+This program should be able to simulate a battle between the characters Gon & Knuckle from Hunter x Hunter. A turn based system where the user acts as Gon vs the computer as Knuckle.
 
 Gon's Total Aura: 21,500
-Knuckle's Total Aura: 30,000
+Knuckle's Total Aura: 45,000
 
 Gon's Abilities:
-Jajanken Rock - He spends 2000 aura making this attack, it does 2000 aura in terms of damage (not guaranteed, depends on Knuckle's Total Aura)
+Jajanken Rock - He spends 2000 aura making this attack, it does 2000 aura in terms of damage (not guaranteed, for now depends on chance)
 Jajanken Paper - He spends 2000 aura making this attack, it does 500 aura in terms of damage (can be used as a feint for Rock or after Offensive Ryu)
 Jajanken Scissors - He spends 2000 aura making this attack, it does 500 aura in terms of damage (can be used as a feint for Rock or after Offensive Ryu)
 Offensive Ryu - He puts the majority of his aura into his fists and feet, creating a three hit combo. He spends 1700 aura and deals 400, 500 or 600 aura damage depending on how many hits landed.
@@ -16,12 +15,16 @@ Kick - He spends 2000 aura, dealing 600 aura damage and lending 400 aura
 Uppercut - He spends 2000 aura, dealing 700 damage and lending 300 aura
 Blitz - He spends 6000 aura, using Haymaker, Kick & Uppercut, dealing 1800 aura damage and lending 1200 aura (very small chance of this happening)
 
-The user will see their Total Aura and how much aura the CPU has as well as the aura stats for each move. They will be given options each time for what move they want to use.
+The user will see their Total Aura and how much aura the CPU has as well as the aura stats for each ability. They will be given options each time for what ability they want to use.
+
+Once Knucklle hits Gon, Knuckle lends Aura to Gon that must be paid back with ten percent interest every 10 seconds (end of each turn). If Knuckle hits Gon again his aura debt increases by that amount.
 
 The aura debt created is a seperate value, until Gon pays it back no damage can be dealt to Knuckle.
-10% interest is added to the aura debt every 10 seconds (end of each turn)
 
-User wins if they can deplete Knuckle's Total Aura, or land a surprise Rock.
-Knuckle wins if user goes bankrupt.
+User wins if they can deplete Knuckle's Total Aura.
+Knuckle wins if user goes bankrupt. Bankruptcy is attained if the user's aura debt equals their Total Aura.
+
+
+
 
 
